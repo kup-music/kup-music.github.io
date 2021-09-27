@@ -1,0 +1,39 @@
+.navBar {
+	position: fixed;
+	width: 100%;
+	align-items: center;
+	background-color: #212;
+}
+.navBar a:hover {
+			background-color: #757;
+}
+
+.latestRelease {
+	display: grid;
+	height: 100%;
+	vertical-align: middle;
+	top: 50%;
+	transform: translateY(12%);
+}
+
+.center-fit {
+	max-width: 100%;
+	max-height: 67vh;
+	min-height: 256px;
+	margin: auto;
+	width: inherit;
+	}
+
+.iconList {
+   	padding-left: calc(50% - 33.5vh);
+   	width: 67vh;
+}
+
+.ico {
+   	width: calc(67vh / 5);
+}
+
+.ico:hover {
+   	-webkit-filter: invert(1);
+   	filter: invert(1);
+}
