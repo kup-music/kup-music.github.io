@@ -2,10 +2,10 @@
 	position: fixed;
 	width: 100%;
 	align-items: center;
-	background-color: #212;
+	background-color: #000;
 }
 .navBar a:hover {
-			background-color: #757;
+	
 }
 
 .latestRelease {
@@ -36,4 +36,45 @@
 .ico:hover {
    	-webkit-filter: invert(1);
    	filter: invert(1);
+}
+
+#overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.95);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+.burger {
+	font-family: Prompt;
+	font-size: 32px;
+	color: #faf;
+	text-decoration: none;
+	margin-left: 16px;
+	margin-bottom: 16px;
+}
+
+.navMenu {
+	margin-left: calc(50% - 160px);
+	text-align: center;
+	text-decoration: none;
+	font-family: Prompt;
+	color: #fff;
+	width: 320px;
+}
+
+.menuItem {
+	font-size: 32px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.menuItem:hover {
+	color: #faf;
 }

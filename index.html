@@ -5,11 +5,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="style.css">
 		<link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+		<script src="mainScript.js"> </script>
 		<title>kup</title>
 	</head>
 	<body style="background-color: #000">
-		<div class="navBar">
-			<a href="#home" class="active; ass" style="font-family: Prompt; font-size: 32px; color: #faf; text-decoration: none;">≡</a>
+		<div id="overlay">
+			<div class="navBar" style="height: 48px;"><a href="#" role="button" class="burger" onclick="overlayOff()">≢</a></div>
+
+			<div class="navMenu">
+				<h2></h2>
+				<div class="menuItem" href="#">
+					About
+				</div>
+				<div class="menuItem" href="#">
+					Social
+				</div>
+				<div class="menuItem" href="contact.html">
+					Contact
+				</div>
+			</div>
+		</div>
+		<div class="navBar" style="height: 48px;">
+			<a href="#" role="button" class="burger" onclick="overlayOn()">≡</a>
 		</div>
 		
 		<div class="latestRelease">
