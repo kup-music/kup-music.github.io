@@ -1,8 +1,14 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+}
+
 .navBar {
 	position: fixed;
 	width: 100%;
 	align-items: center;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0);
+	height: 48px;
 }
 .navBar a:hover {
 	
@@ -10,10 +16,9 @@
 
 .latestRelease {
 	display: grid;
-	height: 100%;
 	vertical-align: middle;
 	top: 50%;
-	transform: translateY(12%);
+	transform: translateY(15%);
 }
 
 .center-fit {
@@ -27,15 +32,16 @@
 .iconList {
    	padding-left: calc(50% - 33.5vh);
    	width: 67vh;
+   	height: calc(67vh / 5);
 }
 
 .ico {
    	width: calc(67vh / 5);
+   	filter: invert(1);
 }
 
 .ico:hover {
-   	-webkit-filter: invert(1);
-   	filter: invert(1);
+	filter: invert(88%) sepia(43%) saturate(2454%) hue-rotate(230deg) brightness(105%) contrast(102%);
 }
 
 #overlay {
@@ -52,12 +58,21 @@
 }
 
 .burger {
-	font-family: Prompt;
-	font-size: 32px;
-	color: #faf;
-	text-decoration: none;
-	margin-left: 16px;
-	margin-bottom: 16px;
+	filter: invert(100%) hue-rotate(93deg) brightness(103%) contrast(103%);
+	width: 32px;
+	padding-left: 16px;
+	padding-top: 16px;
+}
+
+.x {
+	filter: invert(100%) hue-rotate(93deg) brightness(103%) contrast(103%);
+	width: 32px;
+	padding-left: 24px;
+	padding-top: 24px;
+}
+
+.burger:hover {
+	filter: invert(88%) sepia(43%) saturate(2454%) hue-rotate(230deg) brightness(105%) contrast(102%);
 }
 
 .navMenu {
@@ -77,4 +92,13 @@
 
 .menuItem:hover {
 	color: #faf;
+}
+
+.socialIcon {
+	filter: invert(97%) sepia(52%) saturate(5183%) hue-rotate(248deg) brightness(104%) contrast(103%);
+	width: 64px;
+}
+
+.socialIcon:hover {
+	filter: invert(1);
 }
