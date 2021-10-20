@@ -22,16 +22,17 @@ html, body {
 }
 
 .center-fit {
-	max-width: 100%;
+	max-width: 100vw;
 	max-height: 67vh;
-	min-height: 256px;
+/*	min-height: 256px; */
 	margin: auto;
-	width: inherit;
+/*	width: inherit; */
 	}
 
 .iconList {
    	padding-left: calc(50% - 33.5vh);
-   	width: 67vh;
+/* 	width: 67vh; */
+   	max-width: 100vh;
    	height: calc(67vh / 5);
 }
 
@@ -67,8 +68,8 @@ html, body {
 .x {
 	filter: invert(100%) hue-rotate(93deg) brightness(103%) contrast(103%);
 	width: 32px;
-	padding-left: 24px;
-	padding-top: 24px;
+	padding-left: 16px;
+	padding-top: 16px;
 }
 
 .burger:hover {
@@ -76,12 +77,12 @@ html, body {
 }
 
 .navMenu {
-	margin-left: calc(50% - 160px);
+/*	margin-left: calc(50% - 160px); */
 	text-align: center;
 	text-decoration: none;
 	font-family: Prompt;
 	color: #fff;
-	width: 320px;
+/*	width: 320px; */
 }
 
 .menuItem {
