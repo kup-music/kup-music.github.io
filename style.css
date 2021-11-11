@@ -90,11 +90,11 @@ html, body {
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
-
+/*
 .menuItem:hover {
 	color: #faf;
 }
-
+*/
 .socialIcon {
 	filter: invert(97%) sepia(52%) saturate(5183%) hue-rotate(248deg) brightness(104%) contrast(103%);
 	width: 64px;
