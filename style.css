@@ -157,6 +157,7 @@ html, body {
 	margin: 0;
 	text-align: center;
 	margin-top: 10vh;
+	filter: invert(97%) sepia(52%) saturate(51%) hue-rotate(248deg) brightness(104%) contrast(103%);
 }
 
 
